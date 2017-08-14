@@ -1,0 +1,22 @@
+{
+    "name": "tijmen-wierenga/mailman",
+    "description": "Queue implementation for PHP with RabbitMQ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tijmen Wierenga",
+            "email": "t.wierenga@live.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-bcmath": "*",
+        "php-amqplib/php-amqplib": "2.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TijmenWierenga\\Mailman\\": "src/"
+        }
+    }
+}
